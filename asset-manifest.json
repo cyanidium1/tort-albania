@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tort-albania/static/css/main.c44b8c83.css",
+    "main.js": "/tort-albania/static/js/main.9be00f21.js",
+    "static/js/787.14b2f8c7.chunk.js": "/tort-albania/static/js/787.14b2f8c7.chunk.js",
+    "static/media/logo.png": "/tort-albania/static/media/logo.7cf09883aba6bcae59ea.png",
+    "index.html": "/tort-albania/index.html",
+    "main.c44b8c83.css.map": "/tort-albania/static/css/main.c44b8c83.css.map",
+    "main.9be00f21.js.map": "/tort-albania/static/js/main.9be00f21.js.map",
+    "787.14b2f8c7.chunk.js.map": "/tort-albania/static/js/787.14b2f8c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c44b8c83.css",
+    "static/js/main.9be00f21.js"
+  ]
+}
