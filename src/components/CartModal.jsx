@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 function CartModal({ cart, closeModal, handleCheckout, handleIncrement, handleDecrement, clearCart }) {
     const cartItems = Object.values(cart);
     const [isCartNotEmpty, setIsCartNotEmpty] = useState(false);
-
+    console.log(isCartNotEmpty)
     useEffect(() => {
         document.body.classList.add('modal-open');
         setIsCartNotEmpty(cartItems.length > 0);
