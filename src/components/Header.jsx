@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import logo from '../pictures/logo.png'
+import { Link } from 'react-router-dom';
+import logo from '../pictures/logo.png';
 
 function Header(props) {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -33,17 +34,35 @@ function Header(props) {
                 </div>
 
                 {/* Mobile Menu */}
-                <div className="md:hidden">
+                <div className="md:hidden ">
                     <button className="text-xl" onClick={toggleMobileMenu}>
-                        <span>☰</span>
+                        <span className='font-extrabold text-4xl text-[#b83d5c]'>☰</span>
                     </button>
                 </div>
 
                 {/* Desktop Menu Tabs */}
                 <nav className="hidden md:flex space-x-4">
-                    <button className="font-medium text-2xl  text-[#b83d5c]">Меню</button>
-                    <button className="font-medium text-2xl  text-[#b83d5c]">О нас</button>
-                    <button className="font-medium text-2xl  text-[#b83d5c]">Доставка</button>
+                    <Link
+                        to="/"
+                        className="font-medium text-2xl text-[#b83d5c]"
+                        onClick={closeMobileMenu}
+                    >
+                        Меню
+                    </Link>
+                    <Link
+                        to="/about"
+                        className="font-medium text-2xl text-[#b83d5c]"
+                        onClick={closeMobileMenu}
+                    >
+                        О нас
+                    </Link>
+                    <Link
+                        to="/delivery"
+                        className="font-medium text-2xl text-[#b83d5c]"
+                        onClick={closeMobileMenu}
+                    >
+                        Доставка
+                    </Link>
                 </nav>
             </div>
 
@@ -56,9 +75,27 @@ function Header(props) {
                     >
                         <span>✕</span>
                     </button>
-                    <button className="block mb-2 text-lg font-medium text-[#b83d5c]">Меню</button>
-                    <button className="block mb-2 text-lg font-medium text-[#b83d5c]">О нас</button>
-                    <button className="block text-lg font-medium text-[#b83d5c]">Доставка</button>
+                    <Link
+                        to="/"
+                        className="block mb-2 text-lg font-medium text-[#b83d5c]"
+                        onClick={closeMobileMenu}
+                    >
+                        Меню
+                    </Link>
+                    <Link
+                        to="/about"
+                        className="block mb-2 text-lg font-medium text-[#b83d5c]"
+                        onClick={closeMobileMenu}
+                    >
+                        О нас
+                    </Link>
+                    <Link
+                        to="/delivery"
+                        className="block text-lg font-medium text-[#b83d5c]"
+                        onClick={closeMobileMenu}
+                    >
+                        Доставка
+                    </Link>
                 </div>
             )}
         </header>

@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Борщ",
+        "description": "Традиционный украинский борщ с мясом и свежими овощами.",
+        "price": 5.99,
+        "portionSize": "400г",
+        "availability": true,
+        "photo": "https://img.freepik.com/free-photo/red-lentil-soup-with-slice-lemon-breadcrumbs_140725-1001.jpg?w=740&t=st=1705285834~exp=1705286434~hmac=734e25d7bef68c8768b1eabaf23814876c5aab7f22b612e320961176cf08906a"
+    },
+    {
+        "id": 2,
+        "name": "Курица с картошкой",
+        "description": "Куриное филе, запеченное с картошкой и специями.",
+        "price": 8.49,
+        "portionSize": "1кг",
+        "availability": true,
+        "photo": "https://img.freepik.com/free-photo/spaghetti-meatball-topped-with-parmesan-basil-food_53876-98317.jpg?t=st=1705285831~exp=1705286431~hmac=0c7e72d40114f0097dddb364d2e99bc65097c07a64f21828dcfd84293c393464"
+    },
+    {
+        "id": 3,
+        "name": "Лазанья",
+        "description": "Итальянская лазанья с мясом, томатным соусом и сыром.",
+        "price": 7.99,
+        "portionSize": "400г",
+        "availability": true,
+        "photo": "https://img.freepik.com/premium-photo/uzbek-family-table-from-different-dishes_127425-276.jpg?w=360"
+    },
+    {
+        "id": 4,
+        "name": "Салат Цезарь",
+        "description": "Салат с курицей, сыром, помидорами, яйцом и соусом Цезарь.",
+        "price": 4.99,
+        "portionSize": "1кг",
+        "availability": true,
+        "photo": "https://img.freepik.com/free-photo/healthy-salad-with-chicken-vegetables_144627-14739.jpg?w=360&t=st=1705289044~exp=1705289644~hmac=d0096fd05628f1cae2a0a6ed6d10bc888d7dcc41a443d1696c7ff802a271d30c"
+    },
+    {
+        "id": 5,
+        "name": "Чай",
+        "description": "Чёрный чай с лимоном и мёдом.",
+        "price": 1.99,
+        "portionSize": "400г",
+        "availability": true,
+        "photo": "https://img.freepik.com/premium-photo/spaghetti-with-tomato-paste-cheese-basil-pasta-cheese-levitation-basil-spoons_166262-1517.jpg?w=360"
+    },
+    {
+        "id": 6,
+        "name": "Тыквенный пирог",
+        "description": "Домашний тыквенный пирог с корицей.",
+        "price": 3.49,
+        "portionSize": "1кг",
+        "availability": false,
+        "photo": "https://img.freepik.com/premium-photo/uzbek-family-table-from-different-dishes_127425-276.jpg?w=360"
+    },
+    {
+        "id": 7,
+        "name": "Пицца Маргарита",
+        "description": "Классическая пицца с томатным соусом и моцареллой.",
+        "price": 9.99,
+        "portionSize": "400г",
+        "availability": true,
+        "photo": "https://img.freepik.com/premium-photo/uzbek-family-table-from-different-dishes_127425-276.jpg?w=360"
+    },
+    {
+        "id": 8,
+        "name": "Суп куриный с лапшой",
+        "description": "Суп с курицей, лапшой и овощами.",
+        "price": 6.49,
+        "portionSize": "1кг",
+        "availability": true,
+        "photo": "https://img.freepik.com/premium-photo/uzbek-family-table-from-different-dishes_127425-276.jpg?w=360"
+    },
+    {
+        "id": 9,
+        "name": "Спагетти Болоньезе",
+        "description": "Спагетти с мясным томатным соусом.",
+        "price": 8.99,
+        "portionSize": "400г",
+        "availability": true,
+        "photo": "https://example.com/food/spaghetti_bolognese.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Сырники",
+        "description": "Творожные оладьи подается со сметаной и вареньем.",
+        "price": 5.49,
+        "portionSize": "1кг",
+        "availability": true,
+        "photo": "https://example.com/food/syrniki.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Креветки в чесночном соусе",
+        "description": "Креветки, обжаренные в чесночном соусе.",
+        "price": 11.99,
+        "portionSize": "400г",
+        "availability": true,
+        "photo": "https://example.com/food/garlic_shrimp.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Мисо-суп",
+        "description": "Японский суп с тофу и водорослями.",
+        "price": 4.99,
+        "portionSize": "1кг",
+        "availability": true,
+        "photo": "https://example.com/food/miso_soup.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Омлет с грибами",
+        "description": "Омлет с шампиньонами и сыром.",
+        "price": 3.99,
+        "portionSize": "400г",
+        "availability": true,
+        "photo": "https://example.com/food/mushroom_omelette.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Карри с курицей",
+        "description": "Карри с курицей, подается с рисом.",
+        "price": 10.49,
+        "portionSize": "1кг",
+        "availability": true,
+        "photo": "https://example.com/food/chicken_curry.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Греческий салат",
+        "description": "Салат с огурцами, помидорами, оливками и фетой.",
+        "price": 6.99,
+        "portionSize": "400г",
+        "availability": true,
+        "photo": "https://example.com/food/greek_salad.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Блинчики с мёдом",
+        "description": "Блинчики подается с медом и ягодами.",
+        "price": 4.49,
+        "portionSize": "1кг",
+        "availability": true,
+        "photo": "https://example.com/food/pancakes.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Сытный гуляш",
+        "description": "Гуляш с картошкой и морковью.",
+        "price": 7.49,
+        "portionSize": "400г",
+        "availability": true,
+        "photo": "https://example.com/food/goulash.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Суп-гаспачо",
+        "description": "Испанский суп-гаспачо с помидорами и перцем.",
+        "price": 5.49,
+        "portionSize": "1кг",
+        "availability": true,
+        "photo": "https://example.com/food/gazpacho_soup.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Паста Альфредо",
+        "description": "Паста с соусом Альфредо и пармезаном.",
+        "price": 8.99,
+        "portionSize": "400г",
+        "availability": true,
+        "photo": "https://example.com/food/alfredo_pasta.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Сырные палочки",
+        "description": "Сырные палочки с томатным соусом.",
+        "price": 3.99,
+        "portionSize": "1кг",
+        "availability": true,
+        "photo": "https://example.com/food/mozzarella_sticks.jpg"
+    }
+]
