@@ -1,7 +1,8 @@
 {
   "name": "tort-albania",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://cyanidium1.github.io/tort-albania/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
